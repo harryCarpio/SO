@@ -21,7 +21,7 @@ class MiHilo extends Thread{
         for (int i = 0; i < str.length(); i++) {
             System.out.print(str.charAt(i));
             try {
-                Thread.sleep(100);
+                Thread.sleep(150);
             }
             catch (Exception e) {
             }
