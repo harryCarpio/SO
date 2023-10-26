@@ -10,7 +10,6 @@ public class MostrarCeroUnoHilo {
 }
 
 class HiloMostrarCero extends Thread {
-
     @Override
     public void run() {
         for (int i = 1; i <= 10; i++)
@@ -19,7 +18,6 @@ class HiloMostrarCero extends Thread {
 }
 
 class HiloMostrarUno extends Thread {
-
     @Override
     public void run() {
         for (int i = 1; i <= 10; i++)
