@@ -6,7 +6,7 @@ public class DataPrinterCompartido {
         for (int i = 0; i < str.length(); i++) {
             System.out.print(str.charAt(i));
             try {
-                Thread.sleep(1000);
+                Thread.sleep(150);
             }
             catch (Exception e) {
             }

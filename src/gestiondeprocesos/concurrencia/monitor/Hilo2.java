@@ -9,6 +9,6 @@ public class Hilo2 extends Thread{
 
     public void run() {
         // Print statement
-        dp.display("Sistemas Operativos");
+        dp.display("-UNIB.E-2023");
     }
 }
