@@ -1,4 +1,4 @@
-package gestiondeprocesos.procesos.comunicacion;
+package gestiondeprocesos.procesos.comunicacion.sockets;
 
 import java.io.BufferedReader;
 import java.io.IOException;

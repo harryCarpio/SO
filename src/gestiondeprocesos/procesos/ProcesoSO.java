@@ -2,6 +2,9 @@ package gestiondeprocesos.procesos;
 
 import java.io.*;
 
+/**
+ * Crea un proceso externo haciendo uso el API de Java
+ */
 public class ProcesoSO {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
