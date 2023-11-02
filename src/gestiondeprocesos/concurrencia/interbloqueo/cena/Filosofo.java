@@ -29,10 +29,10 @@ public class Filosofo extends Thread {
     public void run() {
         while(true){
             this.pensando();
-            this.mesa.cogerTenedores(this.indiceComensal);
+            this.mesa.cogerTenedores(this.indiceComensal); // tal vez
             this.comiendo();
+            this.mesa.dejarTenedores(this.indiceComensal); // no
             System.out.println("Filosofo " + comensal +  " deja de comer, tenedores libres " + (this.mesa.tenedorIzquierda(this.indiceComensal) + 1) + ", " + (this.mesa.tenedorDerecha(this.indiceComensal) + 1) );
-            this.mesa.dejarTenedores(this.indiceComensal);
         }
     }
 }
